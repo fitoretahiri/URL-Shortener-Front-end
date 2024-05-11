@@ -13,7 +13,6 @@ export default function ShortUrlsList({ shortUrls, setShortUrls }: Props) {
     <div className='short-url'>
       {shortUrls.map((url) => (
         <ShortUrlCard 
-            key={url.key}
             url = {url}
             shortUrls={shortUrls}
             setShortUrls={setShortUrls}

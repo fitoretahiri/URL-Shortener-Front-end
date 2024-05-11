@@ -35,7 +35,6 @@ function App() {
     <div className='App'>
       <span className='Header'>QuickSnip</span>
       <InputField url={url} setUrl={setUrl} handleAddUrl={handleAddUrl}/>
-  
       <ShortUrlsList shortUrls={shortUrls} setShortUrls={setShortUrls} />
       <Footer />
     </div>
