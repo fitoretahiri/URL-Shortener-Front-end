@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import { AiFillCopy, AiFillDelete } from "react-icons/ai";
-import { Url } from "../model";
+import { Url } from "../utils/model";
 import Notification from "./Notification";
 
 type ShortUrlCardProps = {

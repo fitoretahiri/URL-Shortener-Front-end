@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { Url } from '../model';
+import { Url } from '../utils/model';
 import ShortUrlCard from './ShortUrlCard';
 
 type Props = {
